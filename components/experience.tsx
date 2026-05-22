@@ -3,21 +3,21 @@
 import { useScrollReveal } from '@/hooks/use-scroll-reveal'
 
 const experiences = [
-  {
-    id: 'exp3',
-    company: 'Freelance & Independent Projects',
-    position: 'Full Stack Developer',
-    location: 'Jaipur, Rajasthan',
-    period: 'Aug 2025 – Present',
-    badge: 'Full Time',
-    highlights: [
-      'Working on personal and freelance web projects',
-      'Deepening expertise in Next.js, TypeScript, system design, and AI integrations',
-      'Building scalable applications with modern architectural patterns',
-      'Contributing to open-source projects and building developer tools',
-    ],
-    technologies: ['Next.js', 'TypeScript', 'Node.js', 'React', 'AI Integration', 'System Design'],
-  },
+  // {
+  //   id: 'exp3',
+  //   company: 'Freelance & Independent Projects',
+  //   position: 'Full Stack Developer',
+  //   location: 'Jaipur, Rajasthan',
+  //   period: 'Aug 2025 – Present',
+  //   badge: 'Full Time',
+  //   highlights: [
+  //     'Working on personal and freelance web projects',
+  //     'Deepening expertise in Next.js, TypeScript, system design, and AI integrations',
+  //     'Building scalable applications with modern architectural patterns',
+  //     'Contributing to open-source projects and building developer tools',
+  //   ],
+  //   technologies: ['Next.js', 'TypeScript', 'Node.js', 'React', 'AI Integration', 'System Design'],
+  // },
   {
     id: 'exp1',
     company: 'Helpful Insights Pvt Ltd',

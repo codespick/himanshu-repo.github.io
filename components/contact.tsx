@@ -42,12 +42,12 @@ export function Contact() {
     try {
       // Simulate form submission
       await new Promise(resolve => setTimeout(resolve, 1000))
-      
+
       toast({
         title: 'Message sent!',
         description: "Thank you for reaching out. I'll get back to you soon.",
       })
-      
+
       setFormData({ name: '', email: '', inquiryType: 'project', message: '' })
     } catch (error) {
       toast({
@@ -190,8 +190,8 @@ export function Contact() {
 
             <Button
               type="submit"
-              disabled={isSubmitting}
-              className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white font-semibold rounded-lg gap-2 glow-indigo disabled:opacity-50"
+              disabled={true}
+              className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white font-semibold rounded-lg gap-2 glow-indigo disabled:opacity-50 cursor-not-allowed"
             >
               {isSubmitting ? (
                 <>
