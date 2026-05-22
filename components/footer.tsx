@@ -17,8 +17,8 @@ export function Footer() {
   ]
 
   const socials = [
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', color: 'text-blue-400' },
-    { icon: Github, href: 'https://github.com/himanshu-gupta', label: 'GitHub', color: 'text-slate-400' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/himanshu-gupta-393905230/', label: 'LinkedIn', color: 'text-blue-400' },
+    { icon: Github, href: 'https://github.com/repo-tech', label: 'GitHub', color: 'text-slate-400' },
     { icon: Mail, href: 'mailto:hgupta414243@gmail.com', label: 'Email', color: 'text-red-400' },
   ]
 

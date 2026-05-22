@@ -117,7 +117,7 @@ export function Contact() {
               <h3 className="font-bold text-slate-100 mb-4">Follow Me</h3>
               <div className="flex gap-3">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/himanshu-gupta-393905230/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center h-10 w-10 rounded-lg bg-slate-800/50 border border-slate-700 text-slate-300 hover:border-indigo-500/50 hover:bg-indigo-950/50 hover:text-indigo-400 transition-all"
@@ -126,7 +126,7 @@ export function Contact() {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://github.com/himanshu-gupta"
+                  href="https://github.com/repo-tech"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center h-10 w-10 rounded-lg bg-slate-800/50 border border-slate-700 text-slate-300 hover:border-slate-600 hover:bg-slate-800 transition-all"

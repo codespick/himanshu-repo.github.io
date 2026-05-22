@@ -43,10 +43,16 @@ export function Hero() {
   }, [displayedRole, isTyping, roleIndex])
 
   const handleContactClick = () => {
-    const contactSection = document.getElementById('contact')
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' })
-    }
+      const resumeUrl =
+      "https://drive.google.com/uc?export=download&id=1btujU7Z3AVxAJ1C6D_dNOBC0tTWqfWgh";
+
+      const link = document.createElement("a");
+      link.href = resumeUrl;
+      link.download = "Himanshu-Gupta-Resume.pdf";
+
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
   }
 
   const scrollToProjects = () => {
@@ -110,7 +116,7 @@ export function Hero() {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/himanshu-gupta-393905230/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-slate-800/50 border border-slate-700 hover:border-indigo-500/50 hover:bg-indigo-950/50 transition-all hover:shadow-lg hover:-translate-y-1"
@@ -119,7 +125,7 @@ export function Hero() {
                 <Linkedin className="h-5 w-5 text-indigo-400" />
               </a>
               <a
-                href="https://github.com/himanshu-gupta"
+                href="https://github.com/repo-tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-slate-800/50 border border-slate-700 hover:border-slate-500 hover:bg-slate-800 transition-all hover:shadow-lg hover:-translate-y-1"
