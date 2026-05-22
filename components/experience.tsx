@@ -41,6 +41,7 @@ const experiences = [
     location: 'Jaipur, Rajasthan',
     period: 'May 2022 – Dec 2024',
     duration: '2.8 years',
+    badge: 'Full Time',
     highlights: [
       'Led development of React.js and Next.js applications, architecting frontend frameworks with TypeScript',
       'Built RESTful APIs in Node.js, improving API performance by 30%',
