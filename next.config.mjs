@@ -3,13 +3,12 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output: 'export',
+  basePath: '/himanshu-repo',
+  assetPrefix: '/himanshu-repo/',
+  trailingSlash: true,
   images: {
     unoptimized: true,
-  },
-  output: 'export', // Outputs a 'out' folder with static HTML/CSS/JS
-  basePath: '/himanshu-repo', // Replace with your exact GitHub repository name
-  images: {
-    unoptimized: true, // GitHub Pages does not support default Next.js image optimization
   },
 }
 
